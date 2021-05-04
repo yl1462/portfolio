@@ -24,10 +24,12 @@ function ToDoApp() {
 
       <p>Technology used:</p>
       <ul>
+        <li>HTML</li>
+        <li>CSS</li>
         <li>Javascript</li>
         <li>Node</li>
-        <li>CSS</li>
-        <li>HTML</li><br />
+        <li>PostgreSQL</li>
+        <li>Express</li><br />
       </ul>
 
       <a href="https://todolist-app-yl1462.vercel.app/" target="_blank" rel="noreferrer">Link to live app</a><br />
@@ -35,7 +37,7 @@ function ToDoApp() {
       <a href="https://github.com/yl1462/todolist-app.git" target="_blank" rel="noreferrer">Link to client side repo</a><br />
 
       <a href="https://afternoon-springs-29511.herokuapp.com/" target="_blank" rel="noreferrer">Link to server side repo</a>
-      
+
     </div>
 
   )

@@ -18,6 +18,8 @@ function About() {
         <li>Javascript</li>
         <li>React</li>
         <li>Node</li>
+        <li>PostgreSQL</li>
+        <li>Express</li>
         <li>Always learning something new</li>
       </ul>
     </div>

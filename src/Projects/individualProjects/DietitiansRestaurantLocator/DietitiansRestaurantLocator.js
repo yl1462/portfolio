@@ -25,10 +25,12 @@ function Diet() {
       <p>Technology used:</p>
 
       <ul className="list">
+        <li>HTML</li>
+        <li>CSS</li>
         <li>Javascript</li>
         <li>Node</li>
-        <li>CSS</li>
-        <li>HTML</li><br />
+        <li>PostgreSQL</li>
+        <li>Express</li><br />
       </ul>
 
       <a href="https://dietitians-restaurant-locator-yl1462.vercel.app/" target="_blank" rel="noreferrer">Link to live app</a><br />
