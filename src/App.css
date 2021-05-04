@@ -384,7 +384,7 @@ header h1, h2{
   text-align: center;
   padding: 0 25px 0 25px;
   margin: 20px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /*nav links*/
@@ -440,6 +440,7 @@ img {
   display: flex;
   flex-flow: column;
   align-items: center;
+  padding-bottom: 100px
 }
 
 .form input, .form textarea {
@@ -456,7 +457,7 @@ img {
 }
 
 a:link {
-  color: #ffc759;
+  color: #FCA311;
 }
 
 a:hover {
@@ -465,6 +466,13 @@ a:hover {
 
 a:active {
   color: #c95c3a;
+}
+
+.contactLinks {
+  display:flex;
+  text-align: start;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 /*responsive for screen above 1400px wide*/
