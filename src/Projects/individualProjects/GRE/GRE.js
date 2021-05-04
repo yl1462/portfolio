@@ -6,11 +6,11 @@ import BuiltInDictionary from './GREScreenShots/BuiltInDictionary.jpg'
 
 function GRE() {
   return(
-    <div>
+    <div className="intro">
       
-      <h3>GRE Verbal Practice App</h3>
+      <br /><h3>GRE Verbal Practice App</h3><br />
 
-          <p>This is a web app aiming to help GRE learners to practice their verbal questions.</p>
+          <p>This is a web app aiming to help GRE learners to practice their verbal questions.</p><br />
 
           <p>Screenshots:</p>
 
@@ -36,14 +36,14 @@ function GRE() {
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
-            <li>jQuery</li>
+            <li>jQuery</li><br />
           </ul>
 
           <a href="https://github.com/yl1462/GRE_Verbal_Practice_App.git" target="_blank" rel="noreferrer"
-            >Link to GitHub repo</a><br /><br />
+            >Link to GitHub repo</a><br />
 
           <a href="https://yl1462.github.io/GRE_Verbal_Practice_App/" target="_blank" rel="noreferrer">Link
-            to the live app</a>
+            to the live app</a><br />
 
     </div>
   )

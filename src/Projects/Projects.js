@@ -1,19 +1,20 @@
 import React from 'react'
-import { Route, Link, Switch } from 'react-router-dom';
+import { Route, Switch, NavLink } from 'react-router-dom';
 import GRE from './individualProjects/GRE/GRE'
 import ToDoApp from './individualProjects/To-doListApp/To-doListApp'
 import Diet from './individualProjects/DietitiansRestaurantLocator/DietitiansRestaurantLocator'
 
 function Projects() {
   return (
-    <div>
-      <Link to='/projects/gre' className='projects'>
-        <h1>Projects</h1>
-      </Link>
+    <div className='intro'>
 
-      <Link to='/projects/gre'>GRE</Link>
-      <Link to='/projects/todoapp'>To Do List App</Link>
-      <Link to='/projects/diet'>Dietitian's Restaurant Locator</Link>
+      <h2>Projects</h2>
+
+      <div className="projects">
+        <NavLink activeClassName="active" to='/projects/gre'>1. GRE</NavLink>
+        <NavLink activeClassName="active" to='/projects/todoapp'>2. To Do List App</NavLink>
+        <NavLink activeClassName="active" to='/projects/diet'>3. Dietitian's Restaurant Locator</NavLink>
+      </div>
 
       <Switch>
 
@@ -22,7 +23,7 @@ function Projects() {
         <Route path='/projects/diet'><Diet /></Route>
 
       </Switch>
-      
+
     </div>
   )
 }

@@ -7,7 +7,7 @@ function Contact() {
       return <p>Thank you for contacting me! I will get back to you as soon as possible.</p>;
   }
   return (
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="form">
       <label htmlFor="email">
         Email Address
       </label>
@@ -21,6 +21,9 @@ function Contact() {
         field="email"
         errors={state.errors}
       />
+      <label htmlFor="message">
+        Message
+      </label>
       <textarea
         id="message"
         name="message"

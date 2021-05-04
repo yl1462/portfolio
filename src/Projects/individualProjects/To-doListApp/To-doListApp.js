@@ -5,11 +5,11 @@ import todo3 from './ToDoScreenShots/todo3.png'
 
 function ToDoApp() {
   return (
-    <div>
+    <div className="intro">
 
-      <h3>To Do List App</h3>
+      <br /><h3>To Do List App</h3><br />
 
-      <p>Just like the name says, this is an app for you to add, edit, delete your day to day to do items. There is no ad or complicated functions to distract yourself. Simple but functional.</p>
+      <p>Just like the name says, this is an app for you to add, edit, delete your day to day to do items. There is no ad or complicated functions to distract yourself. Simple but functional.</p><br />
 
       <p>Screenshots:</p>
 
@@ -27,12 +27,12 @@ function ToDoApp() {
         <li>Javascript</li>
         <li>Node</li>
         <li>CSS</li>
-        <li>HTML</li>
+        <li>HTML</li><br />
       </ul>
 
-      <a href="https://todolist-app-yl1462.vercel.app/" target="_blank" rel="noreferrer">Link to live app</a><br /><br />
+      <a href="https://todolist-app-yl1462.vercel.app/" target="_blank" rel="noreferrer">Link to live app</a><br />
 
-      <a href="https://github.com/yl1462/todolist-app.git" target="_blank" rel="noreferrer">Link to client side repo</a><br /><br />
+      <a href="https://github.com/yl1462/todolist-app.git" target="_blank" rel="noreferrer">Link to client side repo</a><br />
 
       <a href="https://afternoon-springs-29511.herokuapp.com/" target="_blank" rel="noreferrer">Link to server side repo</a>
       

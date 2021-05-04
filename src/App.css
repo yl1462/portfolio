@@ -9,7 +9,7 @@
  */
 
  html {
-  line-height: 1.15; /* 1 */
+  line-height: 1.75; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
@@ -166,6 +166,7 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+  background: #023e8a;
 }
 
 /**
@@ -348,180 +349,136 @@ template {
   display: none;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Marker Felt, fantasy;
+  -webkit-text-stroke: 0.5px black;
+  text-decoration: none;
 
-
-body {
-  background-color: #fffcf2;
+  color: #FCA311
 }
 
+.App {
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    #131F3A 5%,
+    #1E325C 50%,
+    #131F3A 95%,
+    #000000 100%
+  );
+}
 
 /*everything below is responsive, should be*/
-header {
-  background-color: #0b132b;
-  color: #ffc759;
+.App-header {
+  color: #FCA311;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 10px;
+  line-height: 1.25
 }
 
-header h1 {
+header h1, h2{
   text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  padding: 3vw;
-  margin: 0px;
-  font-size: 21px;
-}
-
-header p {
-  text-align: center;
-  font-family: cursive, sans-serif;
-  padding: 0 0 1vw 0;
-  margin: 0px;
-  font-size:16px;
+  padding: 0 25px 0 25px;
+  margin: 20px;
+  font-size: 20px;
 }
 
 /*nav links*/
-header nav {
+
+.NavBar {
+  padding: 25px;
+  font-size: 25px;
+}
+
+.NavBar-Direction {
   display: flex;
+  align-items: center;
   justify-content: center;
+  padding: 30px;
+  flex-wrap: wrap;
 }
 
-header nav ul {
+.intro {
+  list-style-position: inside;
   display: flex;
-  padding-left: 0;
-  list-style: none;
+  flex-flow: column;
+  width: 70%;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
 }
 
-header nav ul li a {
-  margin-right: 50px;
-  text-decoration: none;
-  font-family: cursive, sans-serif;
-  font-size: 13px;
-  color: #ffc759;
+.list {
+  list-style-position: inside;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
 }
 
-header nav ul li:last-child a {
-  margin-right: 0;
+.projects {
+  display: flex;
+  flex-flow: column;
+  line-height: 3;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-main section h2 {
-  text-align: center;
-  font-family: fantasy;
-  font-size: 16px;
-}
-
 
 /*responsive sized profile pic*/
 img {
-  margin: 0 auto 35px auto;
-  width: 23%;
-  display: block;
-}
-
-.img-bg {
-  background-color: #1c2541;
-}
-
-h3, p {
-  text-align: left;
-  font-size: 14px;
-  font-family: monospace;
-}
-
-.portHr {
-  width: 100%;
-  border: dotted;
-}
-
-/*styling the ol & ul*/
-ol, ul {
-  font-size: 14px;
-  font-family: monospace;
-}
-
-footer {
-  font-family: fantasy;
+  width: 150%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
-}
-
-/*styling class for the intro & about me section*/
-.intro,.about {
-  margin: 0 auto;
-  width: 75%;
-}
-
-footer h2 {
-  margin-bottom: 0;
-  text-align: center;
-  font-size: 16px;
-}
-
-hr {
-  text-align: center;
-  width: 80%;
-  border: .5px solid
-}
-
-footer ol {
-  width: 100px;
-  margin: 20px auto;
-  padding-left: 15px;
-}
-
-.list li{
-  margin-bottom: 15px;
+  align-self: center;
 }
 
 /*for contact form*/
-form {
-  padding-right: 6px;
+.form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
-form input, form textarea {
-  width: 100%;
-  margin-bottom: 20px;
+.form input, .form textarea {
+  width: 75%;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-form textarea {
-  height: 160px;
+.form textarea {
+  height: 200px;
+  text-align: start;
 }
 
-.item-double {
-  flex: 2;
-  margin: 1px 50px 15px 50px;
+a:link {
+  color: #ffc759;
 }
 
-.contactFont {
-  font-size: 14px;
+a:hover {
+  color: #73db8d;
 }
 
-/*responsive for screen above 800px wide*/
-@media screen and (min-width: 800px) {
-  section {
-    padding: 0 10%;
-  }
+a:active {
+  color: #c95c3a;
+}
 
-  .group {
-    flex-direction: row;
-  }
+/*responsive for screen above 1400px wide*/
+@media screen and (min-width: 1400px) {
 
   header {
     display: flex;
     justify-content: space-around;
-    padding: 0 30px;
+    padding: 30px 30px;
   }
 
-  header h1 {
-    font-size: 27px;
+  header h1, h2 {
+    font-size: 30px;
     padding: 1.3vw;
-  }
-
-  header p {
-    font-size: 23px;
-  }
-
-  header nav ul {
-    align-items: center;
   }
 
   header nav ul li a {
@@ -533,10 +490,10 @@ form textarea {
     padding-left: 10px;
   }
 
-  hr {
-    text-align: center;
-    width: 57%;
-    border: .5px solid
+  .projects {
+    flex-flow: row;
+    justify-content: space-between;
+    line-height: 7
   }
 
   .intro,.about {
@@ -564,18 +521,7 @@ form textarea {
     font-size: 23px;
   }
 
-  header a:link {
-    color: #ffc759;
-  }
   
-  header a:hover {
-    color: #73db8d;
-  }
-  
-  header a:active {
-    color: #c95c3a;
-  }
-
   .contactFont {
     font-size: 23px;
     width: 61%;
