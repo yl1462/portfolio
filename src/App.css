@@ -30,6 +30,7 @@ body {
 
 main {
   display: block;
+  padding-bottom: 75px
 }
 
 /**
@@ -440,7 +441,7 @@ img {
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding-bottom: 100px
+  /* padding-bottom: 100px */
 }
 
 .form input, .form textarea {
@@ -505,8 +506,9 @@ a:active {
   }
 
   .intro,.about {
-    margin: 0 auto;
-    width: 55%;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    align-content: center;
   }
 
   footer {
