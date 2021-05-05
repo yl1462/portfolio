@@ -17,7 +17,7 @@ function Home() {
         <li>thinking about innovative solutions for every day challenges</li><br />
         <li style={lastChild}>growing together with my community, and voyaging in this digital era</li><br />
       </ul>
-      <p>Please feel free take a look around my website, and contact me should you have any questions.</p>
+      <p>Please feel free to take a look around my website, and contact me should you have any questions.</p>
     </div>
   )
 }

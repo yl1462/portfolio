@@ -32,11 +32,11 @@ function ToDoApp() {
         <li>Express</li><br />
       </ul>
 
-      <a href="https://todolist-app-yl1462.vercel.app/" target="_blank" rel="noreferrer">Link to live app</a><br />
+      <a href="https://todolist-app-yl1462.vercel.app/" target="_blank" rel="noreferrer">Live app</a><br />
 
-      <a href="https://github.com/yl1462/todolist-app.git" target="_blank" rel="noreferrer">Link to client side repo</a><br />
+      <a href="https://github.com/yl1462/todolist-app.git" target="_blank" rel="noreferrer">Client side repo</a><br />
 
-      <a href="https://afternoon-springs-29511.herokuapp.com/" target="_blank" rel="noreferrer">Link to server side repo</a>
+      <a href="https://afternoon-springs-29511.herokuapp.com/" target="_blank" rel="noreferrer">Server side repo</a>
 
     </div>
 

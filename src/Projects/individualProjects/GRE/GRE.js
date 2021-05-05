@@ -40,10 +40,9 @@ function GRE() {
           </ul>
 
           <a href="https://github.com/yl1462/GRE_Verbal_Practice_App.git" target="_blank" rel="noreferrer"
-            >Link to GitHub repo</a><br />
+            >GitHub repo</a><br />
 
-          <a href="https://yl1462.github.io/GRE_Verbal_Practice_App/" target="_blank" rel="noreferrer">Link
-            to the live app</a><br />
+          <a href="https://yl1462.github.io/GRE_Verbal_Practice_App/" target="_blank" rel="noreferrer">Live app</a><br />
 
     </div>
   )

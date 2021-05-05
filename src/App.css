@@ -350,14 +350,17 @@ template {
   display: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Marker Felt, fantasy;
-  -webkit-text-stroke: 0.5px black;
+  font-family: 'Dosis', sans-serif;
+  /* -webkit-text-stroke: 0.3px black; */
   text-decoration: none;
-
+  font-stretch: expanded;
+  font-weight: bold;
   color: #FCA311
 }
 
@@ -450,6 +453,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  line-height: 50px;
 }
 
 .form textarea {
@@ -491,18 +495,12 @@ a:active {
   }
 
   header nav ul li a {
-    font-size: 21px;
+    font-size: 30px;
   }
 
   header nav ul li:last-child a {
     margin-right: 20px;
     padding-left: 10px;
-  }
-
-  .projects {
-    flex-flow: row;
-    justify-content: space-between;
-    line-height: 7
   }
 
   .intro,.about {
@@ -511,47 +509,12 @@ a:active {
     align-content: center;
   }
 
-  footer {
-    font-size: 27px;
-  }
-
-  footer h2 {
-    font-size: 27px;
-  }
-
   ol, ul{
-    font-size: 23px;
+    font-size: 30px;
   }
 
   main section h2 {
-    font-size: 27px;
-  }
-
-  h3, p {
-    font-size: 23px;
-  }
-
-  
-  .contactFont {
-    font-size: 23px;
-    width: 61%;
-    align-self: center;
-  }
-
-  footer a:link {
-    color: #000000;
-  }
-  
-  footer a:hover {
-    color: #12263a;
-  }
-  
-  footer a:active {
-    color: #2997d8;
-  }
-
-  #GREImg {
-    width: 75%;
+    font-size: 30px;
   }
 }
 
