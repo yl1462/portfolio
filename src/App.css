@@ -434,7 +434,7 @@ header h1, h2{
 
 /*responsive sized profile pic*/
 img {
-  width: 150%;
+  width: 100%;
   display: flex;
   align-self: center;
 }
